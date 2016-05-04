@@ -1,0 +1,22 @@
+#springside4结构介绍
+
+
+[TOC]
+
+
+##springside简介
+SpringSide是以Spring Framework为核心的,Pragmatic风格的JavaEE应用参考示例,是JavaEE世界中的主流技术选型,最佳实践的总结与演示
+作者是由[江南白衣大神](http://weibo.com/calvin1978/)
+##项目结构
+-- ** --
+**springside目录结构：**![项目结构图](http://ww1.sinaimg.cn/large/604613afgw1f3jfpz4pz5j205k0fnaae.jpg)
+1、**examples**:包含quickstart与showcase两个例子项目
+    quickstat:一个springside的简单入门例子（TODO代办项目）
+    showcase:技术大杂烩项目
+2、**modules**:
+    core: springside框架核心代码
+    extension: springside项目扩展（memcached与freemarker）
+    metrics:定义springside项目的一些标准类，类似Util模块
+    parent: 定义了常用的依赖包版本与插件
+    redis: springside的redis缓存实现
+
